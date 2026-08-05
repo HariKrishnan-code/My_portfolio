@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('scroll', onScroll, { passive: true });
 
   // ---------- Active nav link ----------
-  var navLinkIds = ['hero', 'about', 'skills', 'why', 'journey', 'project', 'certificates', 'contact'];
+  var navLinkIds = ['hero', 'about', 'skills', 'why', 'journey', 'project', 'certificates', 'internship', 'contact'];
   var navButtons = document.querySelectorAll('[data-nav]');
 
   var activeObserver = new IntersectionObserver(function (entries) {
