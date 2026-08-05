@@ -512,6 +512,75 @@ font-size:16px;
 .edu-courses-label { margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); }
 .edu-courses { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 
+/* ===================== INTERNSHIP ===================== */
+.internship-bg { background: rgba(11, 15, 26, 0.4); }
+.internship-grid {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+@media (min-width: 1024px) { .internship-grid { grid-template-columns: repeat(2, 1fr); } }
+.internship-card { overflow: hidden; padding: 1.5rem; }
+@media (min-width: 640px) { .internship-card { padding: 2rem; } }
+.internship-card-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.internship-role {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+}
+.internship-company {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+}
+.internship-period {
+  border-radius: 999px;
+  background: rgba(249, 115, 22, 0.15);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-300);
+}
+.internship-desc {
+  margin-top: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.75;
+}
+.internship-list {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.75rem;
+}
+.internship-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  color: #cbd5e1;
+}
+.internship-list i {
+  margin-top: 0.25rem;
+  color: var(--accent-400);
+  flex-shrink: 0;
+}
+.internship-tags {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 /* ===================== CAREER GOALS ===================== */
 .goals-bg { background: rgba(11, 15, 26, 0.4); }
 .goals-wrap { margin-top: 3.5rem; max-width: 42rem; margin-inline: auto; }
